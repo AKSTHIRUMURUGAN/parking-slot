@@ -91,6 +91,5 @@ def get_sv():
     with lock:
         return jsonify(sv)
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
 
